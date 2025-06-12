@@ -75,7 +75,7 @@ const Hero = React.forwardRef<HTMLElement, unknown>((_, ref) => {
           variants={{
             hover: { scale: 1.05 },
           }}
-          href="/img/YukeshCV.pdf"
+          href="/img/YUKESH CHOUDHARY RESUME.pdf"
           download=""
           target="_blank"
           rel="noopener noreferrer"

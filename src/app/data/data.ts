@@ -23,7 +23,6 @@ import {
   SiOpenai,
   SiTailwindcss,
   SiTypescript,
-  SiNestjs,
   SiSqlite,
   SiNextdotjs,
 } from "react-icons/si";
@@ -43,7 +42,6 @@ export const skills = [
 { name: "Bootstrap", icon: FaBootstrap, color: "#7952B3" },
 { name: "NodeJS", icon: FaNodeJs, color: "#83CD29" },
 { name: "ExpressJS", icon: SiExpress, color: "#C9D1D9" },
-{ name: "NestJS", icon: SiNestjs, color: "#E0234E" },
 { name: "Django", icon: SiDjango, color: "#092E20" },
 { name: "PHP", icon: FaPhp, color: "#8892BF" },
 { name: "Python", icon: FaPython, color: "#3776AB" },
