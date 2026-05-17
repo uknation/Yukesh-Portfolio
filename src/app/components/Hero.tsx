@@ -27,7 +27,7 @@ const Hero = React.forwardRef<HTMLElement, unknown>((_, ref) => {
         viewport={{ once: true }}
         className="text-4xl sm:text-5xl md:text-6xl font-bold leading-12 px-4 sm:leading-18 w-full sm:max-w-2xl md:max-w-[52rem]"
       >
-        Crafting Scalable & Impactful Software Solutions
+        Software Engineer Focused on Scalable Solutions
       </motion.h1>
 
       

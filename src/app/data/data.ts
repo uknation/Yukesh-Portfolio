@@ -9,13 +9,21 @@ import {
   FaNodeJs,
   FaDatabase,
   FaPython,
-  FaPhp,
   FaGit,
-  FaBootstrap,
-  FaLinkedinIn
+  FaLinkedinIn,
+  FaNetworkWired,
+  FaBug,  
 } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
-import { TbUserSquare } from "react-icons/tb";
+import { 
+  TbUserSquare,
+  TbApi,           
+  TbBinaryTree,    
+  TbPackages,     
+  TbPlugConnected, 
+  TbDeviceDesktop,
+  TbRefresh,
+ } from "react-icons/tb";
 import {
   SiDjango,
   SiMongodb,
@@ -23,7 +31,6 @@ import {
   SiOpenai,
   SiTailwindcss,
   SiTypescript,
-  SiSqlite,
   SiNextdotjs,
 } from "react-icons/si";
 
@@ -39,17 +46,23 @@ export const skills = [
 { name: "ReactJS", icon: FaReact, color: "#61DAFB" },
 { name: "NextJS", icon: SiNextdotjs, color: "#ffffff" },
 { name: "Tailwind CSS", icon: SiTailwindcss, color: "#38B2AC" },
-{ name: "Bootstrap", icon: FaBootstrap, color: "#7952B3" },
 { name: "NodeJS", icon: FaNodeJs, color: "#83CD29" },
 { name: "ExpressJS", icon: SiExpress, color: "#C9D1D9" },
 { name: "Django", icon: SiDjango, color: "#092E20" },
-{ name: "PHP", icon: FaPhp, color: "#8892BF" },
 { name: "Python", icon: FaPython, color: "#3776AB" },
 { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
 { name: "MySQL", icon: SiMysql, color: "#4479A1" },
-{ name: "SQLite", icon: SiSqlite, color: "#003B57" },
 { name: "SQL", icon: FaDatabase, color: "#003B57" },
 { name: "Git", icon: FaGit, color: "#F05032" },
+{ name: "DSA", icon: TbBinaryTree, color: "#F97316" },
+{ name: "OOP", icon: TbPackages, color: "#8B5CF6" },
+{ name: "OS", icon: TbDeviceDesktop, color: "#6B7280" },
+{ name: "DBMS", icon: FaDatabase, color: "#3B82F6" },
+{ name: "CN", icon: FaNetworkWired, color: "#10B981" },
+{ name: "APIs", icon: TbApi, color: "#EC4899" },
+{ name: "SDLC", icon: TbRefresh, color: "#F59E0B" },
+{ name: "WebSocket", icon: TbPlugConnected, color: "#06B6D4" },
+{ name: "Debugging", icon: FaBug, color: "#EF4444" },
 ];
 
 type NavbarItem = {
