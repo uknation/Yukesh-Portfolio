@@ -162,7 +162,7 @@ export const personalInfo = {
   pfp: "/img/img.png", // Update with your profile picture path
   alt: "Yukesh Choudhary Profile Pic",
   summary:
-    "I'm a passionate Full-Stack Developer with hands-on experience in web development and data management. I enjoy building responsive applications, solving problems, and continuously learning new technologies.",
+    "Software Engineer with hands-on experience in building scalable applications and efficient systems. I enjoy solving complex problems, developing user-focused solutions, and continuously learning new technologies.",
   location: "Chhattisgarh,  India",
 };
 
@@ -190,7 +190,7 @@ export const experience = [
     companyName: "CodTech IT Solutions PVT. LTD.",
     duration: "January 2025 - April 2025",
     title: "Full Stack Web Development Intern",
-    location: "Hyderabad, Telangana",
+    location: "Hyderabad, Telangana (Remote)",
     points: [
       "Worked on full stack web applications using React.js, Node.js, and Django.",
       "Implemented real-time features with WebSocket and collaborative tools.",
@@ -201,7 +201,7 @@ export const experience = [
     companyName: "Bharat Engineering Work",
     duration: "February 2022 - March 2024",
     title: "Data Management & Office Administrator",
-    location: "Nagpur, Maharashtra",
+    location: "Nagpur, Maharashtra (Hybrid)",
     points: [
       "Maintained and supported IT infrastructure and systems.",
       "Handled software, network, and hardware troubleshooting tasks.",

@@ -27,7 +27,7 @@ const Hero = React.forwardRef<HTMLElement, unknown>((_, ref) => {
         viewport={{ once: true }}
         className="text-4xl sm:text-5xl md:text-6xl font-bold leading-12 px-4 sm:leading-18 w-full sm:max-w-2xl md:max-w-[52rem]"
       >
-        Crafting Beautiful & Functional Web Experiences
+        Crafting Scalable & Impactful Software Solutions
       </motion.h1>
 
       
@@ -38,8 +38,9 @@ const Hero = React.forwardRef<HTMLElement, unknown>((_, ref) => {
         viewport={{ once: true, amount: 0.2 }}
         className="md:text-xl leading-6 md:leading-8 w-full sm:max-w-2xl px-4 md:max-w-3xl"
       >
-        Hey, I&apos;m Yukesh Choudhary, a Full Stack Developer passionate about building
-        performant, user-friendly, and scalable applications.
+        Hey, I&apos;m Yukesh Choudhary, a Software Engineer passionate about building efficient, scalable, and user-friendly applications.
+        I enjoy solving problems and creating seamless digital experiences.
+
       </motion.h4>
 
       <motion.div
